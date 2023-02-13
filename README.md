@@ -1,3 +1,35 @@
+# Math Magician 📟 🪄
+
+## Description
+
+A calculator application that performs basic operations such as addition, subtraction, multiplication, and division, as well as more advanced operations like modulo. Built with React.
+
+# 🛠 Built With
+
+### Tech Stack:
+
+- React
+
+### Client:
+
+- React
+
+# 🚀 Live Demo <a name="live-demo"></a>
+
+[Math Magician 📟 🪄](https://eric2umeh.github.io/calculator/)
+
+### Server:
+
+- local.
+
+### Database:
+
+- N/A.
+
+# Key Features:
+
+- React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -28,6 +60,14 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## 👥 Authors
+
+👤 **Eric Umeohabike**
+
+- GitHub: [Eric Umeohabike](https://github.com/eric2umeh)
+- Twitter: [Eric Umeohabike](https://twitter.com/King_Eric_)
+- LinkedIn: [Eric Umeohabike](https://www.linkedin.com/in/eric-umeohabike-4a510ba4/)
 
 ### `npm run eject`
 
@@ -68,3 +108,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# 🔭 Future Features:
+- Implement some transitions to the design.
+- Integrate back-end.
+
+
+# 🤝 Contributing:
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page [issues page](https://github.com/eric2umeh/calculator/issues)
+
+# ⭐️ Show your support
+If you like this project kindly star it, I would appreciate that.
+
+# 🙏 Acknowledgments:
+I would like to thank Microverse team.
+
+# 📝 License:
+This project is [MIT](./LICENSE) licensed.
