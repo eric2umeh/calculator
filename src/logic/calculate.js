@@ -88,7 +88,6 @@ export default function calculate(obj, buttonName) {
   }
 
   // Button must be an operation
-
   // User pressed an operation after pressing '='
   if (!obj.next && obj.total && !obj.operation) {
     return { ...obj, operation: buttonName };
