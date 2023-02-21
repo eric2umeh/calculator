@@ -1,5 +1,7 @@
 import React from 'react';
-import Calculator from './components/Calculator';
+import { Link, Route, Routes } from 'react-router-dom';
+
+import Calculator from './pages/Calculator';
 
 class App extends React.PureComponent {
   render() {

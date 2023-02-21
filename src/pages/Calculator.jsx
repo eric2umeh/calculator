@@ -20,6 +20,10 @@ export default function Calculator() {
 
   return (
     <div className="App">
+      <div className="title-math">
+        <h2>Let&apos;s do some math!</h2>
+      </div>
+
       <div className="container">
         <div className="result">{next || total || 0}</div>
 
