@@ -20,7 +20,7 @@ export default function Calculator() {
 
   return (
     <div className="App">
-      <div className="title-math">
+      <div className="title-cal">
         <h2>Let&apos;s do some math!</h2>
       </div>
 
