@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import MathMagicianApp from './Calculator';
+import Calculators from './Calculator';
 
-describe('Math Magician App', () => {
+describe('Calculators App', () => {
   it('should have a length of 1', () => {
-    const { container } = render(<MathMagicianApp />);
+    const { container } = render(<Calculators />);
     expect(container.querySelectorAll('.App')).toHaveLength(1);
   });
 });
