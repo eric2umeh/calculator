@@ -7,20 +7,130 @@ body {
 
 .App {
   display: flex;
-  min-height: 100vh;
+}
+
+.title {
+  width: 100%;
+  max-width: 600px;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  animation: blinks 12s infinite;
+  -webkit-animation: blinks 10s infinite;
+}
+
+.home_page {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_page h2 {
+  width: 60%;
+  padding: 3%;
+  font-size: 2rem;
+}
+
+.home_page p {
+  width: 90%;
+  letter-spacing: 2px;
+  align-self: center;
+  font-size: 1.3rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding: 3%;
+}
+
+nav .header {
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header li a {
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2b92e6;
+  border-left: 1.5px solid #2b92e6;
+}
+
+.header li .no-border {
+  border-left: none;
+}
+
+.header li a:hover {
+  background-color: #2b92e6;
+  color: #eeeae5;
+  border-radius: 5px;
+  transition: 0.2s ease;
+}
+
+/* Quote */
+.quote {
+  margin: 8%;
+  display: flex;
+}
+
+.quote p {
+  padding: 2%;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.quote p,
+.home_page p {
+  box-shadow: -9px -9px 14px -5px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: -9px -9px 14px -5px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: -9px -9px 14px -5px rgba(0, 0, 0, 0.59);
+}
+
+/* Calculator */
+.title-cal,
+.home_page h2 {
+  font-size: 1.6rem;
+  padding: 0% 2%;
 }
 
 .container {
-  width: 100%;
-  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 650px;
   background: rgb(251, 252, 247);
-  border-radius: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: -9px -9px 14px -5px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: -9px -9px 14px -5px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: -9px -9px 14px -5px rgba(0, 0, 0, 0.59);
+}
+
+@keyframes blinks {
+  20%,
+  24%,
+  55% {
+    color: #fff;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: #2b92e6;
+  }
 }
 
 .result {
-  padding: 2rem;
+  padding: 1.7rem;
   text-align: right;
   background: rgb(135, 133, 133);
   color: #fff;
