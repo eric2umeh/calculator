@@ -154,6 +154,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Twitter: [Eric Umeohabike](https://twitter.com/King_Eric_)
 - LinkedIn: [Eric Umeohabike](https://www.linkedin.com/in/eric-umeohabike-4a510ba4/)
 
+👤 **Mohammad Rafi Amin**
+
+- GitHub: [@githubhandle](https://github.com/mrkamin)
+- Twitter: [@twitterhandle](https://twitter.com/Mohamma63974237)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-rafi-amin-63b4319b/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
