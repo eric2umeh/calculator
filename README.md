@@ -41,7 +41,7 @@ A calculator application that performs basic operations such as addition, subtra
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[Calculator 📟 🪄](https://eric2umeh.github.io/calculator/)
+[Calculator 📟 🪄](https://eric-calculator.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,7 +183,7 @@ If you like this project kindly star it, I would appreciate that.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse team.
+I would like to thank (Render)[https://render.com/] and the Microverse team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
